@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="accel_test"
+        android:label="Face Down Test"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
