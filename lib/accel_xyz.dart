@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:accel_test/colours.dart';
+import 'package:accel_test/constraints.dart';
 import 'package:flutter/material.dart';
 import 'package:sensors_plus/sensors_plus.dart';
 
@@ -25,6 +26,12 @@ class _AccelXyzState extends State<AccelXyz> {
           yPos = 'Y: ${event.y.toStringAsFixed(2)}';
           zPos = 'Z: ${event.z.toStringAsFixed(2)}';
         });
+
+        if ((event.z - PhoneConstraints.target).abs() <= PhoneConstraints.leniency) {
+          PhoneConstraints.phoneFaceDown = true;
+        } else {
+          PhoneConstraints.phoneFaceDown = false;
+        }
       },
     );
   }
