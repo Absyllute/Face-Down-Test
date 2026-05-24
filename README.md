@@ -1,17 +1,11 @@
-# accel_test
+# Face Down Test
 
-A new Flutter project.
+**Just a little test app of mine to detect when a user's phone is face down or not**
 
-## Getting Started
+For a future project of mine ;)
 
-This project is a starting point for a Flutter application.
+<img width="270" height="552" alt="Screenshot_20260524_172148" src="https://github.com/user-attachments/assets/6072c6db-ac74-4ef3-be6b-c6e12dbc6795" />
 
-A few resources to get you started if this is your first Flutter project:
+<img width="270" height="552" alt="Screenshot_20260524_172201" src="https://github.com/user-attachments/assets/f89ced1c-65c2-4061-a50d-e8914cd10a94" />
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="270" height="552" alt="Screenshot_20260524_172207" src="https://github.com/user-attachments/assets/20f2c723-6a53-43bf-bfac-ddb057de868c" />
