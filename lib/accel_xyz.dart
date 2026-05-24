@@ -23,9 +23,9 @@ class _AccelXyzState extends State<AccelXyz> {
     samplingPeriod: SensorInterval.normalInterval
       ).listen((AccelerometerEvent event) {
       setState(() {
-        xPos = 'X: ${event.x.toStringAsFixed(2)}';
-        yPos = 'Y: ${event.y.toStringAsFixed(2)}';
-        zPos = 'Z: ${event.z.toStringAsFixed(2)}';
+        xPos = 'X: ${event.x.toStringAsFixed(1)}';
+        yPos = 'Y: ${event.y.toStringAsFixed(1)}';
+        zPos = 'Z: ${event.z.toStringAsFixed(1)}';
       });
     });
   }
@@ -78,7 +78,7 @@ class _AccelXyzState extends State<AccelXyz> {
                     )
                   );
                 },
-                child: Text('data')
+                child: Text('Face Down Test')
               )
             ],
           ),
